@@ -43,8 +43,8 @@ class App extends Component {
 
   callButtonClick = () => {
     const myObj = {
-      from: '6277729709392023454', // caller
-      to: '6277729709709442974', // callee
+      from: '6277729709709442974', // caller
+      to: '6277729709392023454', // callee
       isVideoCall: false, // Cuộc gọi là video call hoặc voice call 
       videoResolution: 'NORMAL', // chất lượng hình ảnh 'NORMAL' hoặc 'HD'. Mặc định là 'NORMAL'.
     };
@@ -406,7 +406,7 @@ class App extends Component {
 
     //user2
     token =
-    'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS1Y5ZHIyY1NaOVBsQ0xUVzZyN2tZVHd4cGlvZEdLcXctMTU5MTAwMzcxMiIsImlzcyI6IlNLVjlkcjJjU1o5UGxDTFRXNnI3a1lUd3hwaW9kR0txdyIsImV4cCI6MTU5MzU5NTcxMiwidXNlcklkIjoiNjI3NzcyOTcwOTM5MjAyMzQ1NCJ9._5AgnXZ4YXyI8vyRTkWdKqzuToQa0RXkYoM-boA8yDY';
+      'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS1Y5ZHIyY1NaOVBsQ0xUVzZyN2tZVHd4cGlvZEdLcXctMTU5MTAxMjU3MyIsImlzcyI6IlNLVjlkcjJjU1o5UGxDTFRXNnI3a1lUd3hwaW9kR0txdyIsImV4cCI6MTU5MzYwNDU3MywidXNlcklkIjoiNjI3NzcyOTcwOTcwOTQ0Mjk3NCJ9.RoQjt4y0EN-8KQ8Xz2dYTJjBpU6xxoXbqSjuMhHH7e0';
 
     console.log("Thinhnt connecting");
     await this.refs.stringeeClient.connect(token);
